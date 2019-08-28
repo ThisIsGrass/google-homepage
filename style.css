@@ -1,6 +1,4 @@
 body {
-    position: relative;
-    left: 12px;
     overflow-x: hidden;
     font-family: Arial, Helvetica, sans-serif;
     font-size: small;
@@ -220,7 +218,6 @@ p a:hover {
 #language-offered {
     line-height: 20px;
     margin: 0 auto;
-    width: 215px;
     height: 28px;
 }
 
