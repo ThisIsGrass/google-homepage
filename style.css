@@ -217,17 +217,9 @@ p a:hover {
     padding-top: 109px;
 }
 
-#google-language-offer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 1680px;
-    height: 28px;
-}
-
-#google-language-offer p {
+#language-offered {
     line-height: 20px;
-    margin: 0;
+    margin: 0 auto;
     width: 215px;
     height: 28px;
 }
