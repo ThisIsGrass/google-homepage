@@ -7,3 +7,5 @@ A small project for replicating the homepage of Google using HTML and CSS
 - Web inspector
 - HTML
 - CSS
+
+From The Odin Project's [curriculum](http://www.theodinproject.com/courses/web-development-101/lessons/html-css)
