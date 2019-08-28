@@ -1,0 +1,238 @@
+body {
+    position: relative;
+    left: 12px;
+    overflow-x: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    text-align: center;
+    color: #222;
+}
+
+nav {
+    position: relative;
+    left: 12px;
+    bottom: 8px;
+    text-align: right;
+    display: block;
+    height: 30px;
+    padding: 0 30px;
+    margin-top: 24px;
+}
+
+a {
+    display: block;
+    height: 24px;
+}
+
+p a {
+    display: inline;
+    padding: 0 3px;
+    text-decoration: none;
+    color: #1a0dab;
+}
+
+header {
+    display: block;
+    margin-top: 35px;
+    height: 233px;
+    z-index: 109px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
+.footer-col a {
+    padding-left: 23px;
+    display: inline;
+    color: #5f6368;
+    text-decoration: none;
+}
+
+.footer-col a:first-child {
+    padding-left: 0px;
+}
+
+.footer-col a:last-child {
+    padding-right: 30px;
+}
+
+.footer-col a:hover {
+    text-decoration: underline;
+}
+
+.footer-col {
+    border-top: 1px solid #e4e4e4;
+    position: relative;
+    top: 1px;
+    right: 9px;
+    background: #f2f2f2;
+    color: rgba(0,0,0,.54);
+    padding-left: 27px;
+    height: 40.5px;
+    width: 1680px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-href-container{
+    display: inline-block;
+    height: 24px;
+    padding-right: 12px;
+}
+
+.nav-href-container a {
+    color: rgba(0, 0, 0, 0.87);
+    text-decoration: none;
+}
+
+.top-nav-button:hover {
+    opacity: 0.85;
+    text-decoration: underline;
+}
+
+.submit-button {
+    height: 36px;
+    margin: 11px 6px;
+    padding: 0 16px;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    background-color: #f2f2f2;
+    color: #5F6368;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    color: #222;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    border: 1px solid #c6c6c6;
+}
+
+#lower-right-footer {
+    display:block;
+    position:fixed;
+    right: 0;
+}
+
+#gmail {
+    position: relative;
+    left: 1px;
+}
+
+#sign-in {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 71px;
+    height: 30px;
+    background-color: #4285f4;
+    border-radius: 2px;
+    color: #fff;
+    font-weight: 700;
+}
+
+#sign-in:hover {
+    cursor: default;
+    box-shadow: 0 1px 0 rgba(0,0,0,.15);
+}
+
+#google-apps-icon {
+    opacity: 0.5;
+    position: relative;
+    right: 4px;
+    bottom: 1px;
+    vertical-align: middle;
+    margin: 0 2px 0 10px;
+    height: 16px;
+    width: 16px;
+}
+
+#search-box-container {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 6px;
+    bottom: 5px;
+    width: 582px;
+    border: 1px solid #dfe1e5;
+    height: 44px;
+    margin: 0 auto;
+    border-radius: 24px
+}
+
+
+#search-box-container:hover {
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    border-color: rgba(223,225,229,0);
+}
+
+#search-box-container:focus {
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    border-color: rgba(223,225,229,0);
+}
+
+#search-box {
+    position: relative;
+    left: 6px;
+    bottom: 1px;
+    background-color: transparent;
+    border: 0;
+    height: 34px;
+    width: 554px;
+    line-height: 34px;
+    font-size: 16px;
+}
+
+#submit-container {
+    position: relative;
+    bottom: 4px;
+    margin: 0 auto;
+    width: 571px;
+    height: 70px;
+    padding-top: 18px;
+}
+
+#sub-center-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 571px;
+    height: 58px;
+}
+
+
+#google-apps-icon:hover {
+    opacity: 1;
+}
+
+#google-logo {
+    text-align: center;
+    padding-top: 109px;
+}
+
+#google-language-offer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1680px;
+    height: 28px;
+}
+
+#google-language-offer p {
+    line-height: 20px;
+    margin: 0;
+    width: 215px;
+    height: 28px;
+}
+
+#country {
+    line-height: 40px;
+    font-size: 15px;
+}
